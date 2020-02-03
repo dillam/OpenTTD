@@ -322,7 +322,7 @@ Scrollbar *Window::GetScrollbar(uint widnum)
 }
 
 /**
- * Return the querystring associated to a editbox.
+ * Return the querystring associated to an editbox.
  * @param widnum Editbox widget index
  * @return QueryString or nullptr.
  */
@@ -333,7 +333,7 @@ const QueryString *Window::GetQueryString(uint widnum) const
 }
 
 /**
- * Return the querystring associated to a editbox.
+ * Return the querystring associated to an editbox.
  * @param widnum Editbox widget index
  * @return QueryString or nullptr.
  */
@@ -451,7 +451,7 @@ void SetFocusedWindow(Window *w)
 
 /**
  * Check if an edit box is in global focus. That is if focused window
- * has a edit box as focused widget, or if a console is focused.
+ * has an edit box as focused widget, or if a console is focused.
  * @return returns true if an edit box is in global focus or if the focused window is a console, else false
  */
 bool EditBoxInGlobalFocus()
